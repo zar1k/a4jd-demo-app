@@ -1,0 +1,4 @@
+#excluding the node_modules directory and the .git directory
+dist
+node_modules
+.git
