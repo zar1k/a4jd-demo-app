@@ -11,7 +11,6 @@ export class TalksService {
   constructor(private http: HttpClient) { }
 
   getTalks(): Observable<Talk[]> {
-    return this.http.get<Talk[]>('http://localhost:8080/speaker/talks');
+    return this.http.get<Talk[]>('http://192.168.1.53:8080/speaker/talks');
   }
-
 }
